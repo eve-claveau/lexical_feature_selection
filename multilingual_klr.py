@@ -9,7 +9,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 TOKEN_PATTERN = r"(?u)\b[^\W\d_]{2,}\b"
 
-def iter_corpus_chunks(file_path, chunk_size=50000, cols=("abstract", "label")):
+
+def to_binary_label(series):
+    """Maps Qwen 1-5 scale: 1, 2, 3 -> 1 (reproduction) and 4, 5 -> 0 (not reproduction)."""
+    num = pd.to_numeric(series, errors="coerce")
+    return np.where(num < 4, 1, np.where(num >= 4, 0, -1))
+
+
+def iter_corpus_chunks(file_path, chunk_size=50000, cols=("title", "abstract", "qwen2.5.14b_label")):
     """Streams chunks from either a .parquet or .csv file without loading all into RAM."""
     if file_path.endswith(".parquet"):
         pf = pq.ParquetFile(file_path)
@@ -19,7 +26,8 @@ def iter_corpus_chunks(file_path, chunk_size=50000, cols=("abstract", "label")):
         for chunk in pd.read_csv(file_path, usecols=list(cols), chunksize=chunk_size):
             yield chunk
 
-FILE_PATH = os.path.join('..', 'query_data', 'reproduction_papers.parquet')
+
+FILE_PATH = os.path.join('combined.csv')
 CHUNK_SIZE = 50000
 GLOBAL_MIN_DF = 50   # Minimum total documents across the 400k corpus
 CHUNK_MIN_DF = 3     # Drops 1-off typos inside each 50k chunk to save RAM
@@ -31,8 +39,8 @@ total_neg = 0
 
 print("Pass 1: Streaming chunks to accumulate global 1-gram, 2-gram, 3-gram counts...")
 for i, chunk in enumerate(iter_corpus_chunks(FILE_PATH, CHUNK_SIZE)):
-    texts = chunk["abstract"].fillna("")
-    y_chunk = chunk["label"].astype(int).to_numpy()
+    texts = (chunk["title"].fillna("") + " " + chunk["abstract"].fillna("")).str.strip()
+    y_chunk = to_binary_label(chunk["qwen2.5.14b_label"])
     
     pos_mask = (y_chunk == 1)
     neg_mask = (y_chunk == 0)
@@ -92,17 +100,16 @@ ngram_table = pd.DataFrame({
     "klr_likelihood": np.round(klr_score, 2)
 }).sort_values(by="klr_likelihood", ascending=False)
 
+os.makedirs("results", exist_ok=True)
 OUTPATH_NGRAM = os.path.join('results', "ngram_distribution_table.csv")
 OUTPATH_GREEDY = os.path.join('results', "optimal_greedy_filters.csv")
 ngram_table.to_csv(OUTPATH_NGRAM, index=False)
 print(f"Saved {len(ngram_table):,} global n-grams to ngram_distribution_table.csv")
 
-# -------------------------------------------------------------------------
 # PASS 2: Fixed-Vocabulary Chunking for Greedy Maximum Coverage
-# -------------------------------------------------------------------------
 # Lock vocabulary to the top 10,000 positive candidates so the 400k matrix stays <150MB
 MAX_CANDIDATES = 10000
-MIN_LIFT = 3.0
+MIN_LIFT = 2.0
 
 cand_df = ngram_table[(ngram_table["pct_1"] > ngram_table["pct_0"]) & (ngram_table["lift_ratio"] >= MIN_LIFT)].head(MAX_CANDIDATES)
 cand_vocab = cand_df["ngram"].to_numpy()
@@ -120,8 +127,9 @@ sparse_blocks = []
 y_blocks = []
 
 for chunk in iter_corpus_chunks(FILE_PATH, CHUNK_SIZE):
-    sparse_blocks.append(fixed_vec.transform(chunk["abstract"].fillna("")))
-    y_blocks.append(chunk["label"].astype(int).to_numpy())
+    texts = (chunk["title"].fillna("") + " " + chunk["abstract"].fillna("")).str.strip()
+    sparse_blocks.append(fixed_vec.transform(texts))
+    y_blocks.append(to_binary_label(chunk["qwen2.5.14b_label"]))
 
 X_cand = sp.vstack(sparse_blocks, format="csc")
 y_all = np.concatenate(y_blocks)
@@ -133,9 +141,10 @@ uncovered_pos = pos_mask_all.copy()
 covered_any = np.zeros(len(y_all), dtype=bool)
 
 selected_filters = []
-for step in range(1, 201):
+for step in range(1, len(cand_vocab) + 1):
     new_pos_gains = np.asarray(X_cand[uncovered_pos, :].sum(axis=0)).ravel()
     if new_pos_gains.max() == 0:
+        print("No more possible positive gain")
         break
 
     uncovered_neg = neg_mask_all & (~covered_any)
@@ -158,6 +167,8 @@ for step in range(1, 201):
         "cumulative_pct_1_captured": round(cum_recall_1 * 100, 2),
         "cumulative_pct_0_kept": round(cum_fpr_0 * 100, 2)
     })
-    if cum_recall_1 >= 0.95:
+    if cum_recall_1 >= 0.90:
+        print("Attained recall objective")
         break
+    
 pd.DataFrame(selected_filters).to_csv(OUTPATH_GREEDY, index=False)

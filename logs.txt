@@ -1,0 +1,30 @@
+Pass 1: Streaming chunks to accumulate global 1-gram, 2-gram, 3-gram counts...
+Traceback (most recent call last):
+  File "/home/eve/stage_inrs/keyword_extraction/lexical_feature_selection/multilingual_klr.py", line 35, in <module>
+    y_chunk = chunk["label"].astype(int).to_numpy()
+              ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/generic.py", line 6529, in astype
+    new_data = self._mgr.astype(dtype=dtype, errors=errors)
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/internals/managers.py", line 627, in astype
+    return self.apply("astype", dtype=dtype, errors=errors)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/internals/managers.py", line 445, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/internals/blocks.py", line 607, in astype
+    new_values = astype_array_safe(values, dtype, errors=errors)
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/dtypes/astype.py", line 240, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = values.astype(dtype, copy=copy)
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/arrays/string_arrow.py", line 338, in astype
+    return super().astype(dtype, copy=copy)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/arrays/base.py", line 881, in astype
+    return np.asarray(self, dtype=dtype)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/arrays/arrow/array.py", line 863, in __array__
+    return self.to_numpy(dtype=dtype, copy=copy)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eve/PycharmProjects/PythonProject/miniconda3/lib/python3.13/site-packages/pandas/core/arrays/arrow/array.py", line 1746, in to_numpy
+    result = result.astype(dtype, copy=False)
+ValueError: invalid literal for int() with base 10: 'Women/Female focused'

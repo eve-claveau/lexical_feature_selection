@@ -1,0 +1,1547 @@
+step,ngram,new_1s_added,cumulative_pct_1_captured,cumulative_pct_0_kept
+1,ovary syndrome,2711,2.19,0.02
+2,of preeclampsia,953,2.96,0.02
+3,with endometriosis,906,3.69,0.02
+4,preeclampsia,1708,5.07,0.05
+5,pre eclampsia,810,5.73,0.06
+6,postpartum depression,734,6.32,0.07
+7,male infertility,1053,7.17,0.08
+8,menstrual,2989,9.58,0.14
+9,among pregnant women,891,10.3,0.16
+10,postpartum,2984,12.71,0.24
+11,ovarian stimulation,844,13.4,0.25
+12,cesarean,1363,14.5,0.29
+13,recurrent pregnancy,336,14.77,0.29
+14,infertile,1441,15.93,0.33
+15,maternal mortality,681,16.48,0.35
+16,pregnant women with,543,16.92,0.36
+17,human sperm,572,17.38,0.37
+18,women of reproductive,567,17.84,0.38
+19,pregnancy outcome,608,18.33,0.4
+20,endometrial receptivity,285,18.56,0.4
+21,miscarriage,850,19.25,0.43
+22,endometriosis,1928,20.81,0.5
+23,ovarian hyperstimulation,416,21.14,0.51
+24,caesarean,687,21.7,0.53
+25,of pregnant women,735,22.29,0.55
+26,fibroids,291,22.53,0.56
+27,the female reproductive,367,22.82,0.57
+28,premenstrual,307,23.07,0.57
+29,seminiferous,388,23.38,0.58
+30,birth outcomes,540,23.82,0.6
+31,ovarian reserve,349,24.1,0.61
+32,human oocytes,247,24.3,0.61
+33,gestational diabetes,701,24.87,0.64
+34,contraceptives,1314,25.93,0.71
+35,of uterine,525,26.35,0.73
+36,pregnancy outcomes,820,27.02,0.77
+37,tubal,465,27.39,0.79
+38,vaginosis,227,27.57,0.79
+39,antenatal care,736,28.17,0.82
+40,polycystic ovarian,317,28.43,0.83
+41,human spermatozoa,264,28.64,0.84
+42,perinatal outcomes,326,28.9,0.85
+43,erectile,447,29.26,0.87
+44,male fertility,332,29.53,0.88
+45,of testicular,392,29.85,0.9
+46,spontaneous abortion,327,30.11,0.91
+47,childbirth,1194,31.08,0.98
+48,risk of preterm,181,31.22,0.99
+49,gestational trophoblastic,267,31.44,1.0
+50,medical abortion,192,31.59,1.0
+51,of the ovary,232,31.78,1.01
+52,icsi,611,32.27,1.04
+53,intrauterine device,149,32.39,1.05
+54,pregnancy is,658,32.93,1.09
+55,fatherhood,348,33.21,1.11
+56,menopause,1087,34.09,1.18
+57,contraceptive,2014,35.71,1.34
+58,semen quality,221,35.89,1.35
+59,decidualization,155,36.02,1.35
+60,maternal health,483,36.41,1.38
+61,cervical cancer is,215,36.58,1.39
+62,of infertility,424,36.92,1.41
+63,hyperemesis gravidarum,149,37.04,1.41
+64,hysterectomy,404,37.37,1.44
+65,epididymal,317,37.63,1.46
+66,in pregnant women,385,37.94,1.48
+67,abortions,423,38.28,1.51
+68,uterine,1501,39.49,1.65
+69,pregnancy loss,202,39.65,1.66
+70,adolescent mothers,152,39.78,1.66
+71,pregnancy and,1878,41.29,1.85
+72,of granulosa,224,41.47,1.86
+73,sertoli,293,41.71,1.88
+74,fallopian,188,41.86,1.89
+75,sperm dna,135,41.97,1.89
+76,cervical intraepithelial,207,42.14,1.9
+77,parto,194,42.3,1.91
+78,grossesse,152,42.42,1.91
+79,ivf treatment,99,42.5,1.91
+80,of ovulation,207,42.67,1.93
+81,obstetric,785,43.3,2.0
+82,maternal and neonatal,147,43.42,2.01
+83,motherhood,796,44.06,2.09
+84,cervical cancer in,203,44.23,2.1
+85,preimplantation genetic,550,44.67,2.15
+86,gestational weight gain,187,44.82,2.16
+87,perimenopausal,111,44.91,2.16
+88,serum testosterone,191,45.07,2.18
+89,female fertility,136,45.18,2.18
+90,pregnancies,1185,46.13,2.31
+91,pregnancy related,140,46.25,2.32
+92,child transmission of,122,46.34,2.32
+93,seminal plasma,148,46.46,2.33
+94,age at menarche,139,46.58,2.34
+95,spermatogenesis,484,46.97,2.39
+96,father involvement,136,47.08,2.39
+97,female genital,348,47.36,2.43
+98,schwangerschaft,92,47.43,2.43
+99,pcos,224,47.61,2.45
+100,oocyte,1510,48.83,2.64
+101,transvaginal,122,48.93,2.64
+102,hysteroscopy,85,49.0,2.64
+103,in breastfeeding,106,49.09,2.64
+104,prostate specific antigen,268,49.3,2.67
+105,pregnant women,797,49.95,2.77
+106,male reproductive,212,50.12,2.78
+107,female reproductive,186,50.27,2.8
+108,hypospadias,114,50.36,2.8
+109,acrosome,257,50.57,2.82
+110,endometrium,483,50.96,2.88
+111,the ovary,214,51.13,2.9
+112,leydig cells,141,51.24,2.91
+113,in maternal,323,51.5,2.94
+114,menopausal,451,51.87,2.99
+115,gestantes,99,51.95,2.99
+116,intrauterine insemination,76,52.01,2.99
+117,in mothers of,98,52.09,3.0
+118,dysmenorrhea,97,52.17,3.0
+119,mifepristone,111,52.26,3.01
+120,male circumcision,218,52.43,3.03
+121,of vaginal,202,52.6,3.05
+122,spermatozoa,508,53.01,3.11
+123,amenorrhea,99,53.09,3.12
+124,prenatal care,289,53.32,3.15
+125,hypogonadal,84,53.39,3.15
+126,of cervical cancer,375,53.69,3.2
+127,early pregnancy,239,53.88,3.23
+128,of pregnancy,825,54.55,3.35
+129,sperm injection,149,54.67,3.36
+130,breastfeeding among,81,54.74,3.36
+131,prostatectomy,160,54.87,3.38
+132,embarazo,92,54.94,3.38
+133,female sexual,227,55.12,3.41
+134,partum,136,55.23,3.42
+135,in pregnant,155,55.36,3.44
+136,preconception,161,55.49,3.45
+137,menstruation,102,55.57,3.46
+138,perinatal depression,114,55.66,3.47
+139,ivf,487,56.06,3.54
+140,levonorgestrel,147,56.18,3.56
+141,breastfeeding in,165,56.31,3.58
+142,hysteroscopic,61,56.36,3.58
+143,antenatal,419,56.7,3.64
+144,female infertility,85,56.77,3.64
+145,family planning and,90,56.84,3.65
+146,pregnancy,3459,59.63,4.27
+147,granulosa,460,60.0,4.34
+148,ovulation,299,60.25,4.38
+149,mother infant,221,60.42,4.41
+150,sperm,1140,61.34,4.62
+151,stress urinary,87,61.41,4.62
+152,endometrial,599,61.9,4.72
+153,vaginal,689,62.46,4.85
+154,of lactation,71,62.51,4.85
+155,of testosterone,356,62.8,4.91
+156,transition to parenthood,119,62.9,4.92
+157,midwifery,193,63.05,4.95
+158,doğum,69,63.11,4.95
+159,contraception,567,63.57,5.06
+160,pelvic inflammatory,92,63.64,5.07
+161,of breastfeeding,300,63.88,5.12
+162,anti müllerian,69,63.94,5.13
+163,childbearing,475,64.32,5.22
+164,androgen deprivation therapy,164,64.45,5.25
+165,ovaries,250,64.66,5.29
+166,testicular,347,64.94,5.36
+167,penile,127,65.04,5.38
+168,precocious puberty,105,65.12,5.39
+169,breast feeding,430,65.47,5.48
+170,ovarian insufficiency,51,65.51,5.48
+171,maternity care,138,65.62,5.5
+172,mayer rokitansky,55,65.67,5.51
+173,in postmenopausal women,284,65.9,5.56
+174,vitro fertilization,328,66.16,5.63
+175,in placental,77,66.23,5.64
+176,of fathers,195,66.38,5.67
+177,between maternal,231,66.57,5.71
+178,of cervical,162,66.7,5.74
+179,castration resistant,108,66.79,5.76
+180,in female rats,66,66.84,5.76
+181,obstetrical,77,66.9,5.77
+182,mothering,145,67.02,5.8
+183,intrapartum,89,67.09,5.81
+184,in premenopausal,80,67.16,5.82
+185,lh secretion,105,67.24,5.84
+186,maternidade,42,67.28,5.84
+187,for cervical,172,67.41,5.87
+188,spontaneous preterm,46,67.45,5.87
+189,live birth,79,67.52,5.88
+190,coparenting,87,67.59,5.89
+191,fertility preservation,188,67.74,5.93
+192,trophoblast,241,67.93,5.99
+193,uterus,199,68.09,6.03
+194,abortion,670,68.63,6.2
+195,breastfeeding,495,69.03,6.32
+196,of family planning,71,69.09,6.33
+197,infertility,449,69.45,6.44
+198,ovulatory,56,69.5,6.45
+199,prostate cancer is,63,69.55,6.45
+200,surrogacy,62,69.6,6.46
+201,accreta,46,69.64,6.46
+202,of maternal,760,70.25,6.67
+203,localized prostate,61,70.3,6.67
+204,of obstetrics,68,70.36,6.68
+205,free testosterone,68,70.41,6.69
+206,prostatitis,48,70.45,6.69
+207,birthing,58,70.5,6.7
+208,in couple,76,70.56,6.71
+209,perinatal period,65,70.61,6.72
+210,gynecologic,166,70.74,6.76
+211,semen,154,70.87,6.8
+212,menarche,71,70.93,6.81
+213,follicle stimulating,162,71.06,6.85
+214,cervical cancer,471,71.44,6.98
+215,among mothers,117,71.53,7.01
+216,endometriose,42,71.57,7.01
+217,pregnant,311,71.82,7.1
+218,reproductive age,76,71.88,7.11
+219,fathering,55,71.92,7.11
+220,women reproductive,41,71.96,7.12
+221,spermiogenesis,34,71.98,7.12
+222,of luteinizing,51,72.02,7.12
+223,with prostate cancer,102,72.11,7.14
+224,chorionic,116,72.2,7.17
+225,circumcision,128,72.3,7.2
+226,gynaecological,59,72.35,7.21
+227,gynecological,109,72.44,7.24
+228,arcuate nucleus,124,72.54,7.27
+229,hypogonadotropic hypogonadism,114,72.63,7.3
+230,and marital satisfaction,104,72.72,7.32
+231,hyperandrogenism,44,72.75,7.33
+232,sexual and reproductive,276,72.97,7.41
+233,maternal obesity,34,73.0,7.41
+234,fsh,173,73.14,7.46
+235,ovarian failure,71,73.2,7.48
+236,ovarian function,73,73.26,7.48
+237,postnatal depression,88,73.33,7.5
+238,of mothers,396,73.65,7.64
+239,nulliparous women,33,73.68,7.64
+240,ovariectomized,96,73.75,7.66
+241,women health,236,73.94,7.74
+242,assisted reproductive technology,157,74.07,7.78
+243,maternal fetal,49,74.11,7.79
+244,androgen receptor ar,98,74.19,7.82
+245,placental,370,74.49,7.94
+246,oocytes,266,74.7,8.04
+247,the testis,71,74.76,8.05
+248,perinatal mortality,51,74.8,8.06
+249,prolapse,42,74.84,8.06
+250,mães,48,74.87,8.07
+251,of couple,101,74.96,8.1
+252,periconceptional,42,74.99,8.11
+253,leydig,47,75.03,8.11
+254,mothers with,101,75.11,8.14
+255,birth satisfaction,27,75.13,8.14
+256,first birth,62,75.18,8.16
+257,ejaculation,43,75.22,8.16
+258,orgasm,47,75.25,8.17
+259,testosterone,490,75.65,8.36
+260,oviduct,52,75.69,8.37
+261,luteinizing,81,75.76,8.39
+262,preeclamptic,29,75.78,8.39
+263,accouchement,29,75.8,8.39
+264,hormone replacement,79,75.87,8.41
+265,postmenopausal women,108,75.96,8.45
+266,cervical screening,50,76.0,8.46
+267,during labor,34,76.02,8.46
+268,maternity,152,76.15,8.51
+269,postnatal care,32,76.17,8.52
+270,maternal age,76,76.23,8.54
+271,of couples,162,76.36,8.59
+272,endometriotic,39,76.4,8.6
+273,spermatogenic,31,76.42,8.6
+274,families and child,31,76.45,8.6
+275,of paternal,91,76.52,8.63
+276,adenomyosis,46,76.56,8.64
+277,embryo transfer,84,76.62,8.66
+278,follicle,101,76.71,8.7
+279,follicular,135,76.81,8.74
+280,prostate cancer in,67,76.87,8.76
+281,eralpha and,36,76.9,8.76
+282,azoospermia,25,76.92,8.76
+283,cervical cytology,25,76.94,8.76
+284,infection in women,35,76.97,8.77
+285,female reproduction,27,76.99,8.77
+286,prenatal exposure to,107,77.07,8.81
+287,trimester,123,77.17,8.85
+288,on maternal,67,77.23,8.87
+289,intrauterine,224,77.41,8.96
+290,between mothers and,52,77.45,8.97
+291,ovarian surface,28,77.47,8.98
+292,mother to,79,77.54,9.0
+293,reproductive health,239,77.73,9.1
+294,medroxyprogesterone,30,77.75,9.11
+295,aborto,30,77.78,9.11
+296,father child,62,77.83,9.13
+297,in women with,218,78.01,9.22
+298,male germ,34,78.03,9.23
+299,maternal,1296,79.08,9.84
+300,paternal,143,79.2,9.88
+301,lactating,33,79.22,9.89
+302,estradiol in,45,79.26,9.9
+303,preimplantation diagnosis,27,79.28,9.9
+304,premenopausal,58,79.33,9.92
+305,female rat,27,79.35,9.92
+306,for prostate cancer,87,79.42,9.95
+307,and couples,49,79.46,9.97
+308,testis,151,79.58,10.03
+309,ibu,35,79.61,10.04
+310,risk of ovarian,32,79.63,10.04
+311,mothers in,159,79.76,10.11
+312,of perinatal,78,79.83,10.14
+313,healthy women,40,79.86,10.15
+314,em mulheres,40,79.89,10.16
+315,hysterosalpingography,21,79.91,10.16
+316,estradiol and,65,79.96,10.18
+317,ovarian aging,23,79.98,10.18
+318,fertility sparing,23,80.0,10.18
+319,women sexual,87,80.07,10.22
+320,the androgen,47,80.11,10.23
+321,in mothers,48,80.14,10.25
+322,vasectomy,22,80.16,10.25
+323,male reproduction,20,80.18,10.25
+324,pelvic floor,38,80.21,10.26
+325,fertility intentions,36,80.24,10.27
+326,in couples,73,80.3,10.3
+327,fertility treatment,31,80.32,10.3
+328,subfertility,22,80.34,10.3
+329,of gnrh,81,80.41,10.34
+330,luteal,66,80.46,10.37
+331,in men with,48,80.5,10.38
+332,climacteric,23,80.52,10.38
+333,son preference,46,80.55,10.4
+334,embryo donation,21,80.57,10.4
+335,psa,61,80.62,10.42
+336,stillbirth,59,80.67,10.45
+337,prenatal,526,81.09,10.74
+338,family planning,155,81.22,10.81
+339,prostate cancer pca,45,81.25,10.83
+340,cervical,192,81.41,10.93
+341,endometrioma,24,81.43,10.93
+342,puerperal,22,81.45,10.94
+343,benign prostatic,33,81.47,10.95
+344,perinatal,248,81.67,11.08
+345,spermatocytes,31,81.7,11.09
+346,spermatogonial,23,81.72,11.09
+347,infected women,29,81.74,11.1
+348,with turner,29,81.76,11.11
+349,chronic pelvic,45,81.8,11.12
+350,hydatidiform,27,81.82,11.13
+351,progesterone,208,81.99,11.24
+352,androgen,220,82.17,11.36
+353,estradiol,174,82.31,11.45
+354,couples,869,83.01,11.97
+355,early marriage,37,83.04,11.99
+356,assisted reproductive,61,83.09,12.01
+357,fathers in,50,83.13,12.03
+358,human preimplantation,30,83.15,12.04
+359,madres,40,83.19,12.05
+360,of ovarian,200,83.35,12.17
+361,pellucida,29,83.37,12.18
+362,for mothers,68,83.43,12.21
+363,perimenopause,17,83.44,12.21
+364,perineal,27,83.46,12.21
+365,pap smear,32,83.49,12.22
+366,for ovarian,49,83.53,12.25
+367,ovary,76,83.59,12.29
+368,prostate cancer risk,22,83.61,12.29
+369,of estrogens,31,83.63,12.3
+370,gynecologists,26,83.65,12.3
+371,cryptorchidism,26,83.67,12.31
+372,epididymis,21,83.69,12.31
+373,giving birth,21,83.71,12.32
+374,reproductiva,22,83.72,12.32
+375,lactation,56,83.77,12.35
+376,the ovarian,31,83.79,12.36
+377,on birth,28,83.82,12.37
+378,birth weight in,31,83.84,12.38
+379,between mother,28,83.87,12.39
+380,hirsutism,20,83.88,12.39
+381,penis,23,83.9,12.4
+382,papillomavirus infection,32,83.93,12.41
+383,the prostate,35,83.95,12.42
+384,postmenopausal,75,84.01,12.47
+385,and preterm birth,21,84.03,12.47
+386,materno,24,84.05,12.48
+387,among married women,21,84.07,12.48
+388,vulvar,18,84.08,12.48
+389,fathers,368,84.38,12.74
+390,mothers,658,84.91,13.21
+391,receptor modulators,31,84.94,13.22
+392,women preferences,19,84.95,13.22
+393,vagina,32,84.98,13.24
+394,the testes,16,84.99,13.24
+395,premature rupture of,16,85.0,13.24
+396,oestradiol,26,85.02,13.25
+397,ovarian,515,85.44,13.63
+398,incontinence in women,14,85.45,13.63
+399,androgenic,53,85.49,13.66
+400,of estrogen,124,85.59,13.74
+401,of prostate cancer,91,85.67,13.8
+402,myomectomy,22,85.69,13.81
+403,euploid,22,85.7,13.82
+404,hypogonadism,45,85.74,13.84
+405,uterino,15,85.75,13.84
+406,iud,19,85.77,13.85
+407,adult women,66,85.82,13.89
+408,births,191,85.98,14.03
+409,cervix,52,86.02,14.06
+410,coitus,16,86.03,14.07
+411,in pubertal,16,86.04,14.07
+412,in male mice,20,86.06,14.07
+413,mujeres con,17,86.07,14.08
+414,reproductive aged,13,86.08,14.08
+415,male partners,52,86.13,14.11
+416,parenthood,135,86.23,14.21
+417,human female,18,86.25,14.22
+418,sexual function,59,86.3,14.26
+419,trophoblasts,14,86.31,14.26
+420,co parenting,14,86.32,14.26
+421,male rats,47,86.36,14.29
+422,urethral,33,86.38,14.3
+423,human placenta,39,86.42,14.33
+424,during labour,15,86.43,14.33
+425,gestação,15,86.44,14.33
+426,preterm delivery,26,86.46,14.34
+427,fertility related,16,86.47,14.35
+428,antepartum,12,86.48,14.35
+429,dysmenorrhoea,12,86.49,14.35
+430,gestational exposure,12,86.5,14.35
+431,among women in,109,86.59,14.43
+432,assisted reproduction,68,86.65,14.49
+433,among women living,19,86.66,14.49
+434,endometritis,13,86.67,14.49
+435,their reproductive,21,86.69,14.5
+436,gamete,42,86.72,14.53
+437,fertility of,29,86.75,14.55
+438,peripartum,21,86.76,14.55
+439,vitro fertilisation,14,86.77,14.56
+440,prostatic,21,86.79,14.57
+441,risk women,29,86.81,14.58
+442,in young women,45,86.85,14.61
+443,disorders in women,17,86.86,14.62
+444,gynaecology,27,86.89,14.63
+445,the couple,36,86.92,14.66
+446,parturition,18,86.93,14.66
+447,stage of labor,18,86.94,14.67
+448,of reproductive,118,87.04,14.78
+449,postcoital,11,87.05,14.78
+450,decidua,12,87.06,14.78
+451,obstetrics,65,87.11,14.83
+452,cervicovaginal,13,87.12,14.83
+453,implantation,126,87.22,14.95
+454,reprodução,14,87.23,14.95
+455,estrogen,265,87.45,15.21
+456,of androgens,17,87.46,15.22
+457,chinese women,36,87.49,15.25
+458,eclampsia,19,87.51,15.25
+459,of mother,38,87.54,15.28
+460,parent infant,22,87.56,15.29
+461,low income women,25,87.58,15.31
+462,sexual satisfaction,51,87.62,15.35
+463,birth control,24,87.64,15.37
+464,placenta,65,87.69,15.43
+465,gnrh,75,87.75,15.5
+466,amh,13,87.76,15.5
+467,reproductive tract,13,87.77,15.5
+468,spermatids,11,87.78,15.5
+469,positive women,30,87.8,15.53
+470,iuds,11,87.81,15.53
+471,first child,16,87.82,15.53
+472,urinary incontinence,34,87.85,15.56
+473,human male,15,87.86,15.56
+474,australian women,19,87.88,15.57
+475,oogenesis,17,87.89,15.58
+476,ejaculatory,12,87.9,15.58
+477,impotence,14,87.91,15.59
+478,hpv and,40,87.95,15.62
+479,birth in,39,87.98,15.66
+480,couple,114,88.07,15.77
+481,preimplantation,68,88.13,15.84
+482,pré,33,88.15,15.86
+483,hormone binding globulin,27,88.17,15.88
+484,women living with,27,88.2,15.9
+485,women autonomy,23,88.21,15.92
+486,among women from,14,88.23,15.92
+487,birthweight,63,88.28,15.98
+488,of gestational,20,88.29,16.0
+489,fetal growth,44,88.33,16.04
+490,to birth,18,88.34,16.05
+491,mother and,48,88.38,16.09
+492,clomiphene,11,88.39,16.09
+493,scrotal,11,88.4,16.1
+494,intravaginal,11,88.41,16.1
+495,stage of labour,11,88.42,16.1
+496,childless,30,88.44,16.12
+497,antiandrogens,10,88.45,16.13
+498,dyspareunia,9,88.46,16.13
+499,spermatogonia,9,88.46,16.13
+500,estrous,18,88.48,16.14
+501,spermatozoon,9,88.49,16.14
+502,breast milk,36,88.51,16.17
+503,flashes,9,88.52,16.17
+504,vaginitis,9,88.53,16.17
+505,embarazadas,9,88.54,16.17
+506,married women,85,88.61,16.26
+507,klinefelter,25,88.63,16.28
+508,fertilization,57,88.67,16.34
+509,ovum,10,88.68,16.34
+510,of the fetus,15,88.69,16.35
+511,genital,136,88.8,16.51
+512,gestacional,13,88.81,16.51
+513,blastocyst transfer,13,88.82,16.52
+514,preterm birth,57,88.87,16.58
+515,gestational,85,88.94,16.67
+516,mother child,25,88.96,16.69
+517,fertility,462,89.33,17.27
+518,polar body,11,89.34,17.27
+519,papanicolaou,11,89.35,17.28
+520,amniotic,32,89.37,17.31
+521,pituitary gonadal,21,89.39,17.32
+522,in the female,28,89.41,17.35
+523,testes,25,89.43,17.37
+524,urban women,15,89.45,17.38
+525,of father,14,89.46,17.39
+526,spermatid,9,89.46,17.39
+527,hyperandrogenic,9,89.47,17.39
+528,estrogens,35,89.5,17.42
+529,of low birth,13,89.51,17.43
+530,women experience of,13,89.52,17.44
+531,birth defects,25,89.54,17.46
+532,müllerian,12,89.55,17.46
+533,birth rates,12,89.56,17.47
+534,skilled birth,8,89.57,17.47
+535,women systematic,12,89.58,17.48
+536,fecundability,8,89.58,17.48
+537,pregnanediol,8,89.59,17.48
+538,adolescent girls in,24,89.61,17.5
+539,sex steroid hormone,8,89.62,17.5
+540,among young women,26,89.64,17.52
+541,stress incontinence,11,89.65,17.53
+542,midwife,14,89.66,17.54
+543,sexual dysfunction,61,89.71,17.61
+544,menorrhagia,10,89.71,17.61
+545,grade squamous,10,89.72,17.62
+546,decidual,13,89.73,17.62
+547,and mother,19,89.75,17.64
+548,oestrogen,27,89.77,17.67
+549,miscarriages,9,89.78,17.67
+550,embryo quality,12,89.79,17.68
+551,insemination,17,89.8,17.69
+552,antiandrogen,9,89.81,17.69
+553,gleason,9,89.82,17.69
+554,reprodutiva,9,89.82,17.7
+555,and reproductive,73,89.88,17.79
+556,among women who,28,89.9,17.82
+557,choriocarcinoma,14,89.92,17.83
+558,for hpv,22,89.93,17.85
+559,gynecologist,8,89.94,17.86
+560,operative delivery,8,89.95,17.86
+561,ethiopian demographic,8,89.95,17.86
+562,cleavage stage embryos,10,89.96,17.86
+563,aromatase,19,89.98,17.88
+564,and birth,28,90.0,17.91
+565,oophorectomy,7,90.0,17.91
+566,episiotomy,7,90.01,17.91
+567,materna,14,90.02,17.92
+568,egg donation,7,90.03,17.92
+569,gestodene,7,90.03,17.92
+570,and their partners,16,90.05,17.94
+571,sterilization,20,90.06,17.96
+572,papillomavirus hpv,35,90.09,18.0
+573,of the reproductive,17,90.1,18.02
+574,mother,143,90.22,18.24
+575,labor and delivery,8,90.23,18.24
+576,on reproductive,18,90.24,18.26
+577,normal women,10,90.25,18.27
+578,andrology,8,90.25,18.27
+579,gravidez,8,90.26,18.27
+580,and child outcomes,16,90.27,18.28
+581,metastatic prostate,10,90.28,18.29
+582,of conception,9,90.29,18.29
+583,assisted conception,9,90.3,18.3
+584,to prostate,9,90.3,18.3
+585,gynecology,14,90.32,18.32
+586,gonadotrophin,14,90.33,18.33
+587,unborn,7,90.33,18.33
+588,diethylstilbestrol,7,90.34,18.33
+589,institutional delivery,7,90.34,18.33
+590,of the male,31,90.37,18.38
+591,in women,383,90.68,19.02
+592,population of women,11,90.69,19.03
+593,women with hiv,9,90.69,19.03
+594,of embryo,15,90.71,19.05
+595,hcg,13,90.72,19.06
+596,congenital malformations,13,90.73,19.07
+597,castration,14,90.74,19.09
+598,reproductive,223,90.92,19.48
+599,birth spacing,7,90.92,19.48
+600,of women with,42,90.96,19.54
+601,age women,9,90.97,19.55
+602,uteri,6,90.97,19.55
+603,gestations,9,90.98,19.56
+604,fetal loss,6,90.98,19.56
+605,endometriomas,6,90.99,19.56
+606,birth experience,6,90.99,19.56
+607,preterm labour,6,91.0,19.56
+608,asthenozoospermia,6,91.0,19.56
+609,gebelik,6,91.01,19.56
+610,fetoplacental,6,91.01,19.56
+611,iron and folic,9,91.02,19.56
+612,among women with,23,91.04,19.59
+613,fertilized,10,91.05,19.6
+614,fistula,10,91.05,19.61
+615,postnatal period,7,91.06,19.61
+616,women and infants,7,91.06,19.61
+617,new parents,7,91.07,19.61
+618,mãe,7,91.08,19.62
+619,seminal,27,91.1,19.66
+620,induction of labor,8,91.1,19.66
+621,dyadic adjustment,8,91.11,19.67
+622,hyperplasia,31,91.14,19.71
+623,age at first,18,91.15,19.74
+624,aged women,19,91.17,19.76
+625,their infants,11,91.17,19.77
+626,the father,17,91.19,19.8
+627,dmpa,6,91.19,19.8
+628,sexually active women,6,91.2,19.8
+629,husbands were,6,91.2,19.8
+630,placentae,7,91.21,19.8
+631,ethinylestradiol,7,91.21,19.81
+632,of the corpus,7,91.22,19.81
+633,embryo selection,8,91.23,19.82
+634,coital,8,91.23,19.82
+635,obese women,17,91.25,19.85
+636,of prostate,9,91.25,19.85
+637,oestrogens,9,91.26,19.86
+638,pelvic pain,12,91.27,19.87
+639,groups of women,15,91.28,19.9
+640,trophoblastic,10,91.29,19.91
+641,of fetal,40,91.32,19.98
+642,oviductal,6,91.33,19.98
+643,placentation,8,91.33,19.99
+644,primiparous,5,91.34,19.99
+645,the woman,29,91.36,20.04
+646,women and their,32,91.39,20.1
+647,subfertile,5,91.39,20.1
+648,give birth,6,91.4,20.1
+649,for women who,13,91.41,20.12
+650,on fetal,8,91.41,20.13
+651,pmtct,7,91.42,20.13
+652,stillbirths,10,91.43,20.14
+653,gynaecologists,5,91.43,20.14
+654,the pill,7,91.44,20.15
+655,child bearing,5,91.44,20.15
+656,delivery care,5,91.45,20.15
+657,menarcheal,5,91.45,20.15
+658,second child,5,91.45,20.15
+659,birth interval,6,91.46,20.15
+660,embryo,97,91.54,20.35
+661,egg activation,5,91.54,20.35
+662,birth weight,65,91.59,20.48
+663,men with,60,91.64,20.61
+664,women about,12,91.65,20.62
+665,of the female,24,91.67,20.67
+666,lh,11,91.68,20.68
+667,neonatal outcomes,10,91.69,20.69
+668,leiomyoma,10,91.7,20.71
+669,dysgenesis,7,91.7,20.71
+670,advanced prostate cancer,7,91.71,20.72
+671,time parents,7,91.71,20.72
+672,breech,7,91.72,20.73
+673,among women,122,91.82,21.0
+674,women reporting,9,91.82,21.01
+675,women both,8,91.83,21.02
+676,from women,25,91.85,21.07
+677,women using,17,91.86,21.1
+678,forceps,6,91.87,21.1
+679,antiandrogenic,6,91.87,21.1
+680,antiestrogenic,6,91.88,21.1
+681,vaginally,5,91.88,21.11
+682,negative women,5,91.89,21.11
+683,hellp,15,91.9,21.13
+684,postmenopause,5,91.9,21.13
+685,and complication,5,91.91,21.13
+686,parturient,5,91.91,21.14
+687,women exposed,5,91.92,21.14
+688,antifertility,5,91.92,21.14
+689,unmarried and,5,91.92,21.14
+690,male mice,14,91.93,21.16
+691,gonadotropin,30,91.96,21.22
+692,midwives,21,91.98,21.26
+693,that women with,8,91.98,21.27
+694,that women who,10,91.99,21.29
+695,on male,28,92.01,21.34
+696,in female mice,7,92.02,21.35
+697,male partner,10,92.03,21.36
+698,women who have,24,92.05,21.41
+699,women living,22,92.06,21.46
+700,total of women,8,92.07,21.47
+701,aneuploidies,8,92.08,21.48
+702,cumulus,5,92.08,21.48
+703,female cancer,5,92.09,21.48
+704,aging male,5,92.09,21.49
+705,become parents,5,92.09,21.49
+706,women who are,24,92.11,21.54
+707,the hpv,12,92.12,21.56
+708,mulheres com,7,92.13,21.57
+709,trachomatis in,7,92.13,21.58
+710,steroidogenesis,9,92.14,21.59
+711,group of women,9,92.15,21.6
+712,the female,48,92.19,21.72
+713,hyperstimulation,4,92.19,21.72
+714,anc,6,92.2,21.73
+715,capacitation,4,92.2,21.73
+716,progestin,6,92.2,21.73
+717,prepregnancy,4,92.21,21.73
+718,preterm labor,8,92.21,21.74
+719,syncytiotrophoblast,4,92.22,21.74
+720,deferens,4,92.22,21.74
+721,follitropin,4,92.22,21.74
+722,germ cells and,6,92.23,21.75
+723,globozoospermia,4,92.23,21.75
+724,andrological,4,92.23,21.75
+725,hyperprolactinemia,4,92.24,21.75
+726,fetuses,17,92.25,21.78
+727,birth,195,92.41,22.32
+728,born to,8,92.41,22.33
+729,trichomonas vaginalis,7,92.42,22.34
+730,folliculogenesis,5,92.42,22.34
+731,risk human papillomavirus,5,92.43,22.34
+732,circumcised,5,92.43,22.35
+733,norethisterone,5,92.44,22.35
+734,women should,8,92.44,22.36
+735,iron supplementation,6,92.45,22.37
+736,alfa,6,92.45,22.37
+737,for male,29,92.48,22.45
+738,androgens,14,92.49,22.48
+739,women with,80,92.55,22.7
+740,compared with women,6,92.56,22.71
+741,aging men,4,92.56,22.71
+742,female rats,7,92.57,22.72
+743,precocious,7,92.57,22.73
+744,progestogen,4,92.57,22.73
+745,some women,12,92.58,22.75
+746,hpv infections,4,92.59,22.75
+747,fetomaternal,4,92.59,22.75
+748,adt,4,92.59,22.75
+749,virilization,4,92.6,22.76
+750,of women attending,4,92.6,22.76
+751,women in bangladesh,4,92.6,22.76
+752,and offspring,9,92.61,22.77
+753,for fetal,5,92.62,22.78
+754,women following,5,92.62,22.78
+755,their infant,5,92.62,22.79
+756,for chromosomal,5,92.63,22.79
+757,with their partner,5,92.63,22.8
+758,have child,6,92.64,22.8
+759,neural tube defects,6,92.64,22.81
+760,women at risk,8,92.65,22.83
+761,in labour,9,92.65,22.84
+762,of delivery,13,92.67,22.87
+763,egg,17,92.68,22.92
+764,sterility,9,92.69,22.93
+765,babies,22,92.7,22.99
+766,inhibin,12,92.71,23.02
+767,vasomotor,5,92.72,23.03
+768,ovariectomy,4,92.72,23.03
+769,ultrasound guided,4,92.72,23.03
+770,female sex hormones,4,92.73,23.03
+771,of unsafe,5,92.73,23.04
+772,use during,13,92.74,23.07
+773,hpv infection,9,92.75,23.09
+774,all women,14,92.76,23.13
+775,rupture,12,92.77,23.16
+776,health of women,6,92.78,23.17
+777,women experienced,6,92.78,23.18
+778,fetal,77,92.84,23.44
+779,the fetus,9,92.85,23.46
+780,complicaciones,4,92.85,23.46
+781,the pubertal,4,92.86,23.46
+782,mulheres que,4,92.86,23.47
+783,human reproduction,11,92.87,23.49
+784,teenage,18,92.88,23.55
+785,pap,9,92.89,23.57
+786,uteroplacental,3,92.89,23.57
+787,women treated,3,92.89,23.57
+788,in the offspring,6,92.9,23.58
+789,eclamptic,3,92.9,23.58
+790,for prostate,3,92.9,23.58
+791,hysterectomies,3,92.91,23.58
+792,hauser syndrome,3,92.91,23.58
+793,spermatozoal,3,92.91,23.58
+794,norplant,3,92.91,23.58
+795,antimüllerian,3,92.92,23.58
+796,transcervical,3,92.92,23.58
+797,vulvovaginal,3,92.92,23.58
+798,papp,3,92.92,23.58
+799,proportion of women,8,92.93,23.6
+800,long acting,13,92.94,23.64
+801,sex hormone,10,92.95,23.66
+802,shbg,4,92.95,23.67
+803,women knowledge,5,92.96,23.67
+804,salpingitis,5,92.96,23.68
+805,baby,24,92.98,23.76
+806,neoplasia,11,92.99,23.79
+807,ohss,4,92.99,23.79
+808,of hormonal,6,93.0,23.81
+809,in the male,8,93.0,23.82
+810,against hpv,4,93.01,23.83
+811,sui,4,93.01,23.83
+812,and child health,8,93.02,23.85
+813,gestation and,3,93.02,23.86
+814,dihydrotestosterone,3,93.02,23.86
+815,care for women,3,93.02,23.86
+816,in vitro maturation,3,93.03,23.86
+817,neonatal outcome,3,93.03,23.86
+818,younger women,6,93.03,23.87
+819,women who,63,93.08,24.11
+820,life of women,3,93.09,24.11
+821,women not,6,93.09,24.12
+822,risk of congenital,3,93.09,24.13
+823,women and health,3,93.1,24.13
+824,vulva,3,93.1,24.13
+825,and husband,3,93.1,24.13
+826,satisfaction scale,6,93.11,24.14
+827,avpv,3,93.11,24.14
+828,women the aim,3,93.11,24.14
+829,controlled study,8,93.12,24.17
+830,information form,4,93.12,24.17
+831,luteum,5,93.12,24.18
+832,they received,5,93.13,24.19
+833,hormonal,54,93.17,24.41
+834,associated with male,4,93.17,24.41
+835,compared to women,6,93.18,24.43
+836,aneuploidy,12,93.19,24.47
+837,female germ,3,93.19,24.47
+838,women at,17,93.21,24.53
+839,family growth,4,93.21,24.54
+840,follicles,7,93.21,24.56
+841,mullerian,3,93.22,24.56
+842,apgar,4,93.22,24.57
+843,use of family,4,93.22,24.57
+844,catsper,3,93.23,24.57
+845,women presenting,3,93.23,24.57
+846,lactational,3,93.23,24.58
+847,treatment of male,3,93.23,24.58
+848,breastmilk,3,93.24,24.58
+849,outcomes between,5,93.24,24.59
+850,women and to,4,93.24,24.6
+851,conceived,19,93.26,24.67
+852,of foetal,3,93.26,24.67
+853,tadalafil,3,93.26,24.67
+854,labour and,12,93.27,24.72
+855,previa,3,93.28,24.72
+856,hormonally,3,93.28,24.72
+857,pronuclear,3,93.28,24.73
+858,overweight women,3,93.28,24.73
+859,induction of labour,3,93.28,24.73
+860,female rhesus,3,93.29,24.74
+861,dilatation and,3,93.29,24.74
+862,in symptomatic,3,93.29,24.74
+863,offspring,34,93.32,24.89
+864,pelvic,10,93.33,24.93
+865,of the women,15,93.34,24.99
+866,women after,4,93.34,25.0
+867,genetic diagnosis,4,93.35,25.01
+868,women years,4,93.35,25.02
+869,lhrh,4,93.35,25.03
+870,outcomes for women,4,93.36,25.03
+871,bivalent,4,93.36,25.04
+872,prepubertal,5,93.36,25.06
+873,women in rural,5,93.37,25.07
+874,women of,24,93.39,25.18
+875,conceive,6,93.39,25.2
+876,women between,5,93.4,25.21
+877,mutilation,3,93.4,25.22
+878,karyotype,6,93.4,25.24
+879,pid,3,93.41,25.24
+880,period is,6,93.41,25.26
+881,of consecutive,3,93.41,25.27
+882,indications and,3,93.41,25.27
+883,gestation,10,93.42,25.31
+884,and hpv,4,93.43,25.32
+885,should be provided,4,93.43,25.33
+886,nonusers,4,93.43,25.34
+887,dehydroepiandrosterone,5,93.44,25.35
+888,fertile,7,93.44,25.38
+889,nulliparous,2,93.44,25.38
+890,women aged years,7,93.45,25.41
+891,anovulation,2,93.45,25.41
+892,acrosomal,2,93.45,25.41
+893,mellitus gdm,2,93.45,25.41
+894,women was,6,93.46,25.43
+895,breastfeed,2,93.46,25.43
+896,fibroid,2,93.46,25.43
+897,frozen thawed,2,93.46,25.43
+898,obstetrician,2,93.47,25.43
+899,multiparous,2,93.47,25.43
+900,azoospermic,2,93.47,25.43
+901,iui,2,93.47,25.43
+902,luteinization,2,93.47,25.43
+903,in woman,3,93.47,25.43
+904,spiral artery,2,93.48,25.43
+905,neonatal morbidity,2,93.48,25.43
+906,cytotrophoblasts,2,93.48,25.43
+907,hydroxyprogesterone,2,93.48,25.43
+908,oligomenorrhea,2,93.48,25.43
+909,in nonpregnant,2,93.48,25.43
+910,intratesticular,2,93.49,25.43
+911,in twin,3,93.49,25.44
+912,leuprolide,2,93.49,25.44
+913,ar and,3,93.49,25.45
+914,pregestational,2,93.49,25.45
+915,with regular,4,93.5,25.46
+916,tese,4,93.5,25.47
+917,etonogestrel,2,93.5,25.47
+918,parturients,2,93.5,25.47
+919,preconceptional,2,93.51,25.47
+920,rectovaginal,2,93.51,25.47
+921,erection,2,93.51,25.47
+922,anogenital distance,2,93.51,25.47
+923,postnatal women,2,93.51,25.47
+924,of blastocyst,3,93.51,25.47
+925,desire to have,2,93.52,25.47
+926,dystocia,4,93.52,25.48
+927,and controls were,3,93.52,25.49
+928,father infant,2,93.52,25.49
+929,improve women,3,93.53,25.49
+930,hpv screening,2,93.53,25.49
+931,meiotic arrest,2,93.53,25.49
+932,conclusion women,2,93.53,25.49
+933,with ultrasound,2,93.53,25.49
+934,women decision making,3,93.53,25.5
+935,single blastocyst,2,93.54,25.5
+936,poor knowledge,3,93.54,25.51
+937,no conflict of,2,93.54,25.51
+938,hydrosalpinx,3,93.54,25.51
+939,uncircumcised,2,93.54,25.51
+940,case control study,19,93.56,25.61
+941,epds,2,93.56,25.61
+942,aor ci and,6,93.57,25.63
+943,among married,4,93.57,25.64
+944,women experiencing,4,93.57,25.65
+945,women there,4,93.58,25.66
+946,pill,6,93.58,25.69
+947,reduce the incidence,5,93.58,25.71
+948,cryopreservation,7,93.59,25.74
+949,expectant,2,93.59,25.74
+950,hyperemesis,2,93.59,25.74
+951,endometrioid,2,93.6,25.74
+952,maturation in,4,93.6,25.75
+953,hrt,2,93.6,25.75
+954,conservative treatment,2,93.6,25.76
+955,hsd,2,93.6,25.76
+956,on the male,2,93.6,25.76
+957,women over years,2,93.61,25.76
+958,old women,2,93.61,25.76
+959,and early embryonic,2,93.61,25.76
+960,trimestre,2,93.61,25.76
+961,and mri,2,93.61,25.76
+962,hormone therapy,5,93.62,25.78
+963,conclusion in,5,93.62,25.8
+964,double blind placebo,5,93.62,25.82
+965,women attending,3,93.63,25.83
+966,most women,3,93.63,25.84
+967,and newborn,3,93.63,25.85
+968,breastfed,3,93.63,25.85
+969,partner support,3,93.64,25.86
+970,randomized placebo controlled,3,93.64,25.87
+971,its associated factors,3,93.64,25.88
+972,igfbp,3,93.64,25.88
+973,of viable,3,93.65,25.89
+974,long term use,3,93.65,25.9
+975,in first,9,93.66,25.94
+976,gonadotropins,5,93.66,25.97
+977,varicocele,2,93.66,25.97
+978,women worldwide,2,93.66,25.97
+979,myomas,2,93.67,25.97
+980,pgt,2,93.67,25.97
+981,affected women,3,93.67,25.98
+982,coc,2,93.67,25.99
+983,endocervical,2,93.67,25.99
+984,pco,2,93.67,25.99
+985,hr hpv,2,93.68,25.99
+986,counseled,2,93.68,25.99
+987,income women,2,93.68,26.0
+988,hormone releasing,2,93.68,26.0
+989,affecting women,3,93.68,26.01
+990,each woman,3,93.69,26.02
+991,lubrication,2,93.69,26.02
+992,midlife women,3,93.69,26.03
+993,self collected,2,93.69,26.03
+994,vmmc,2,93.69,26.03
+995,intervals ci,3,93.7,26.04
+996,before treatment,3,93.7,26.05
+997,nonresident,2,93.7,26.05
+998,aborted,2,93.7,26.05
+999,had previous,2,93.7,26.05
+1000,an option for,2,93.7,26.06
+1001,oligospermia,2,93.71,26.06
+1002,consisted of women,2,93.71,26.06
+1003,this cohort study,2,93.71,26.06
+1004,eight women,2,93.71,26.06
+1005,female wistar,2,93.71,26.07
+1006,before or during,2,93.71,26.07
+1007,reveal any,2,93.72,26.07
+1008,biopsy,14,93.73,26.15
+1009,histologic,6,93.73,26.18
+1010,cytology in,2,93.73,26.18
+1011,and live,4,93.74,26.2
+1012,luminal,4,93.74,26.21
+1013,labor and,11,93.75,26.28
+1014,based cross,6,93.75,26.31
+1015,ff,3,93.76,26.32
+1016,on neonatal,3,93.76,26.33
+1017,incision,3,93.76,26.34
+1018,of preterm,5,93.76,26.36
+1019,ulipristal,2,93.77,26.37
+1020,adolescent women,2,93.77,26.37
+1021,who had undergone,2,93.77,26.37
+1022,women enrolled,2,93.77,26.38
+1023,of camp,2,93.77,26.38
+1024,chromatin condensation,2,93.77,26.38
+1025,of teen,2,93.78,26.39
+1026,hormone levels and,2,93.78,26.39
+1027,and umbilical,2,93.78,26.39
+1028,infant morbidity,2,93.78,26.4
+1029,syndrome an,2,93.78,26.4
+1030,jeg,2,93.78,26.4
+1031,safe effective,2,93.79,26.4
+1032,iron folic,2,93.79,26.41
+1033,receptivity,3,93.79,26.42
+1034,conception,20,93.81,26.55
+1035,cords,2,93.81,26.55
+1036,new born,2,93.81,26.55
+1037,case report,11,93.82,26.62
+1038,extremely rare,2,93.82,26.63
+1039,analgesia,7,93.83,26.66
+1040,prostaglandins,6,93.83,26.7
+1041,neurokinin,3,93.83,26.71
+1042,vacuum,3,93.83,26.72
+1043,elective,4,93.84,26.74
+1044,unplanned,3,93.84,26.75
+1045,myometrial,2,93.84,26.75
+1046,oc,2,93.84,26.76
+1047,sonography,2,93.85,26.76
+1048,woman with,3,93.85,26.77
+1049,have an increased,3,93.85,26.79
+1050,of women aged,2,93.85,26.79
+1051,national family,3,93.85,26.8
+1052,women in sub,2,93.86,26.81
+1053,option in,2,93.86,26.81
+1054,outpatient department,2,93.86,26.82
+1055,and health survey,6,93.86,26.85
+1056,pe,5,93.87,26.88
+1057,study at,3,93.87,26.89
+1058,during in,3,93.87,26.9
+1059,fetus,4,93.88,26.93
+1060,of assisted,2,93.88,26.93
+1061,fertilisation,2,93.88,26.94
+1062,myometrium,2,93.88,26.94
+1063,women receiving,2,93.88,26.95
+1064,adversely affect,4,93.89,26.97
+1065,fisher exact,2,93.89,26.97
+1066,the first six,2,93.89,26.98
+1067,libido,2,93.89,26.99
+1068,the meiotic,2,93.89,26.99
+1069,anemia among,2,93.89,27.0
+1070,workup,2,93.9,27.0
+1071,urologists,2,93.9,27.01
+1072,infant in,2,93.9,27.01
+1073,hmg,3,93.9,27.03
+1074,genetic screening,3,93.9,27.04
+1075,unwanted,7,93.91,27.09
+1076,number of women,4,93.91,27.11
+1077,cohort study,34,93.94,27.39
+1078,malformations,4,93.94,27.41
+1079,women born,2,93.94,27.42
+1080,hospital based,5,93.95,27.45
+1081,methods this,14,93.96,27.56
+1082,statistically significant results,2,93.96,27.56
+1083,parity and,2,93.96,27.57
+1084,bilateral,7,93.97,27.62
+1085,after in,2,93.97,27.62
+1086,in art,3,93.97,27.64
+1087,freeze,3,93.98,27.65
+1088,women and in,2,93.98,27.66
+1089,of vertical,2,93.98,27.67
+1090,of folic,2,93.98,27.67
+1091,and secretory,2,93.98,27.68
+1092,total antioxidant capacity,2,93.98,27.68
+1093,maturation,12,93.99,27.78
+1094,germ cell,7,94.0,27.83
+1095,foetal,2,94.0,27.84
+1096,progestogens,2,94.0,27.84
+1097,chance of,4,94.01,27.87
+1098,risks and benefits,4,94.01,27.89
+1099,serum concentrations of,3,94.01,27.91
+1100,transmission of hiv,5,94.02,27.94
+1101,incontinence,4,94.02,27.97
+1102,women seeking,2,94.02,27.98
+1103,histologically,2,94.02,27.98
+1104,spss version,4,94.02,28.01
+1105,pulses,2,94.03,28.02
+1106,was similar in,2,94.03,28.03
+1107,homa ir,2,94.03,28.03
+1108,delivery among,2,94.03,28.04
+1109,biopsies,5,94.04,28.08
+1110,female mice,3,94.04,28.09
+1111,age at,11,94.05,28.19
+1112,weight in,4,94.05,28.22
+1113,women had,5,94.05,28.25
+1114,insufficiency and,2,94.06,28.26
+1115,women were,15,94.07,28.4
+1116,hormone,41,94.1,28.8
+1117,injection,16,94.11,28.94
+1118,and neonatal,3,94.12,28.96
+1119,replacement therapy,3,94.12,28.98
+1120,cycle in,4,94.12,29.01
+1121,population based cohort,2,94.12,29.02
+1122,prospective observational,2,94.12,29.03
+1123,was conducted at,2,94.13,29.04
+1124,indication for,2,94.13,29.05
+1125,medical college,2,94.13,29.06
+1126,minimally invasive,2,94.13,29.07
+1127,dor,2,94.13,29.08
+1128,sexual life,2,94.13,29.09
+1129,clinic of,2,94.14,29.1
+1130,maximum of,2,94.14,29.11
+1131,abnormal,21,94.15,29.32
+1132,disorder of,3,94.16,29.34
+1133,before and during,4,94.16,29.37
+1134,depression during,2,94.16,29.38
+1135,women during,3,94.16,29.4
+1136,of polycystic,1,94.17,29.4
+1137,women aged,4,94.17,29.43
+1138,male factor,1,94.17,29.43
+1139,preovulatory,1,94.17,29.43
+1140,anovulatory,1,94.17,29.43
+1141,gravidarum,1,94.17,29.43
+1142,trimesters,1,94.17,29.43
+1143,fertilizing,1,94.17,29.43
+1144,ejaculate,1,94.17,29.43
+1145,many women,4,94.18,29.47
+1146,curettage,1,94.18,29.47
+1147,cauda,1,94.18,29.47
+1148,hypogonadotropic,1,94.18,29.47
+1149,and assisted,1,94.18,29.47
+1150,poor responders,1,94.18,29.47
+1151,male involvement,1,94.18,29.47
+1152,lng,1,94.18,29.47
+1153,women methods,1,94.18,29.47
+1154,normozoospermic,1,94.18,29.47
+1155,to undergo,3,94.19,29.49
+1156,salpingo,1,94.19,29.49
+1157,manchette,1,94.19,29.49
+1158,salpingectomy,1,94.19,29.49
+1159,artery embolization,1,94.19,29.49
+1160,fsfi,1,94.19,29.49
+1161,section rates,1,94.19,29.49
+1162,teratozoospermia,1,94.19,29.49
+1163,teaching hospital,3,94.2,29.51
+1164,rfsh,1,94.2,29.51
+1165,in of women,1,94.2,29.51
+1166,gardnerella,1,94.2,29.51
+1167,figo,1,94.2,29.51
+1168,during delivery,1,94.2,29.51
+1169,retrograde,2,94.2,29.52
+1170,planning among,1,94.2,29.52
+1171,antisperm,1,94.2,29.52
+1172,desogestrel,1,94.2,29.52
+1173,primiparas,1,94.2,29.52
+1174,drospirenone,1,94.2,29.52
+1175,hirsute,1,94.21,29.52
+1176,scrotum,1,94.21,29.52
+1177,ovx,1,94.21,29.52
+1178,women satisfaction with,1,94.21,29.52
+1179,identification of women,1,94.21,29.52
+1180,mrkh,1,94.21,29.52
+1181,lutein,1,94.21,29.52
+1182,counseling on,1,94.21,29.52
+1183,hpv dna testing,1,94.21,29.52
+1184,study group and,1,94.21,29.52
+1185,or further research,1,94.21,29.52
+1186,women randomized,1,94.21,29.52
+1187,bmi on,1,94.22,29.52
+1188,in kisspeptin,1,94.22,29.52
+1189,natal care,1,94.22,29.52
+1190,men treated,1,94.22,29.52
+1191,condensation and,1,94.22,29.52
+1192,of fgm,1,94.22,29.52
+1193,care women,1,94.22,29.52
+1194,complication rate,1,94.22,29.52
+1195,secondary sexual characteristics,1,94.22,29.52
+1196,women older than,1,94.22,29.52
+1197,hfsh,1,94.22,29.52
+1198,meiotic progression,1,94.22,29.52
+1199,the conceptus,1,94.23,29.52
+1200,of intercourse,1,94.23,29.52
+1201,maternos,1,94.23,29.52
+1202,vaccination on,1,94.23,29.52
+1203,male infants,1,94.23,29.52
+1204,receptor fshr,1,94.23,29.52
+1205,pre pubertal,1,94.23,29.52
+1206,exposure was associated,1,94.23,29.52
+1207,and infant,5,94.23,29.57
+1208,infant health,2,94.24,29.57
+1209,higher in the,5,94.24,29.62
+1210,control group the,3,94.24,29.64
+1211,option for,4,94.25,29.67
+1212,iu,2,94.25,29.68
+1213,with normal,5,94.25,29.73
+1214,hypertensive,6,94.26,29.79
+1215,implants,4,94.26,29.82
+1216,success rate,2,94.26,29.83
+1217,histology,3,94.26,29.86
+1218,levels during,2,94.27,29.87
+1219,study of women,3,94.27,29.89
+1220,tertiary care,3,94.27,29.91
+1221,in the third,4,94.27,29.95
+1222,zona,2,94.28,29.96
+1223,menses,1,94.28,29.96
+1224,the live,1,94.28,29.97
+1225,control women,1,94.28,29.97
+1226,their newborns,1,94.28,29.97
+1227,cin,1,94.28,29.97
+1228,zp,1,94.28,29.97
+1229,pph,1,94.28,29.97
+1230,women in ethiopia,1,94.28,29.97
+1231,quality embryos,1,94.28,29.97
+1232,larc,1,94.28,29.97
+1233,thrombophilia,1,94.28,29.98
+1234,pronuclei,1,94.28,29.98
+1235,more children,2,94.29,29.99
+1236,eligible women,1,94.29,29.99
+1237,of ar,2,94.29,30.0
+1238,pms and,1,94.29,30.01
+1239,per women,1,94.29,30.01
+1240,hpv genotypes,1,94.29,30.01
+1241,women background,1,94.29,30.01
+1242,section was,1,94.29,30.01
+1243,tolerance test,2,94.29,30.02
+1244,hsil,1,94.3,30.02
+1245,ultrasonography and,1,94.3,30.02
+1246,on the outcome,2,94.3,30.04
+1247,after treatment,5,94.3,30.09
+1248,operative,5,94.31,30.14
+1249,mcg,1,94.31,30.14
+1250,retrieved and,1,94.31,30.14
+1251,gravida,1,94.31,30.14
+1252,information and services,1,94.31,30.14
+1253,approximately of women,1,94.31,30.14
+1254,luteolysis,1,94.31,30.14
+1255,breast feed,1,94.31,30.14
+1256,seven women,1,94.31,30.14
+1257,asymptomatic women,1,94.31,30.15
+1258,infant dyads,1,94.31,30.15
+1259,related decline in,1,94.31,30.15
+1260,investigated the expression,1,94.32,30.15
+1261,the surgery,1,94.32,30.15
+1262,women conclusion,1,94.32,30.15
+1263,womb,1,94.32,30.15
+1264,was started,1,94.32,30.15
+1265,adjustment scale,1,94.32,30.15
+1266,pubertal onset,1,94.32,30.16
+1267,reduced compared,1,94.32,30.16
+1268,retrospective review of,1,94.32,30.16
+1269,counseling about,1,94.32,30.16
+1270,trachomatis was,1,94.32,30.16
+1271,who had at,1,94.32,30.16
+1272,in normal men,1,94.33,30.16
+1273,low risk,5,94.33,30.21
+1274,home delivery,1,94.33,30.21
+1275,cycle,34,94.36,30.63
+1276,successful outcome,1,94.36,30.63
+1277,doppler,2,94.36,30.64
+1278,patency,1,94.36,30.64
+1279,termination of,2,94.36,30.66
+1280,syndrome,63,94.41,31.43
+1281,haploid,2,94.41,31.44
+1282,among the women,1,94.42,31.45
+1283,unmet need,2,94.42,31.46
+1284,outcomes after,2,94.42,31.47
+1285,recombinant human,2,94.42,31.49
+1286,atresia,1,94.42,31.49
+1287,rpl,1,94.42,31.49
+1288,of membranes,1,94.42,31.49
+1289,women suffering,1,94.42,31.5
+1290,women taking,1,94.42,31.5
+1291,million women,1,94.43,31.5
+1292,oligo,1,94.43,31.5
+1293,amniocentesis,1,94.43,31.51
+1294,risk hpv,1,94.43,31.51
+1295,related complications,2,94.43,31.52
+1296,microsurgical,1,94.43,31.52
+1297,ruptured,1,94.43,31.53
+1298,treatment option,1,94.43,31.53
+1299,conservative management,1,94.43,31.53
+1300,women under,1,94.43,31.53
+1301,on preterm,1,94.43,31.54
+1302,pnd,1,94.44,31.54
+1303,induction with,1,94.44,31.54
+1304,adolescent girls with,1,94.44,31.54
+1305,women hospital,1,94.44,31.54
+1306,group versus,1,94.44,31.55
+1307,of urology,1,94.44,31.55
+1308,pretested,1,94.44,31.55
+1309,and ar,1,94.44,31.55
+1310,nfhs,1,94.44,31.55
+1311,number of previous,1,94.44,31.56
+1312,first stage of,1,94.44,31.56
+1313,be individualized,1,94.44,31.56
+1314,for woman,1,94.44,31.56
+1315,locally advanced,1,94.45,31.57
+1316,treatment for women,1,94.45,31.57
+1317,study on women,1,94.45,31.57
+1318,alcohol consumption during,1,94.45,31.57
+1319,gonocytes,1,94.45,31.57
+1320,discontinuing,1,94.45,31.58
+1321,adenocarcinoma of,1,94.45,31.58
+1322,were factors,1,94.45,31.58
+1323,low with,1,94.45,31.58
+1324,ethiopia community,1,94.45,31.59
+1325,progestational,1,94.45,31.59
+1326,and their husbands,1,94.45,31.59
+1327,stimulation,16,94.47,31.79
+1328,of mature,2,94.47,31.81
+1329,postnatal,6,94.47,31.88
+1330,outcomes were,5,94.48,31.93
+1331,for adverse,2,94.48,31.95
+1332,ratio or confidence,2,94.48,31.96
+1333,parity,3,94.48,31.99
+1334,ectopic,3,94.49,32.03
+1335,and delivery,5,94.49,32.08
+1336,sonographic,1,94.49,32.09
+1337,women having,1,94.49,32.09
+1338,of ultrasound,1,94.49,32.09
+1339,with spontaneous,1,94.49,32.1
+1340,resumption,1,94.49,32.1
+1341,is safe,2,94.5,32.12
+1342,ultrasonographic,1,94.5,32.12
+1343,cytotrophoblast,1,94.5,32.12
+1344,ovine,1,94.5,32.13
+1345,women affected,1,94.5,32.13
+1346,disorders during,1,94.5,32.13
+1347,newborn health,1,94.5,32.14
+1348,art treatment,1,94.5,32.14
+1349,in the hypothalamic,1,94.5,32.14
+1350,risk of early,1,94.5,32.15
+1351,good knowledge,1,94.5,32.15
+1352,medical and surgical,1,94.5,32.15
+1353,acog,1,94.51,32.16
+1354,transfer is,1,94.51,32.16
+1355,nomogram,1,94.51,32.16
+1356,currently married,1,94.51,32.17
+1357,fragile families,1,94.51,32.17
+1358,women regarding,1,94.51,32.17
+1359,and pr,1,94.51,32.18
+1360,of utilization of,1,94.51,32.18
+1361,and anemia,1,94.51,32.18
+1362,embryologists,1,94.51,32.19
+1363,men involvement,1,94.51,32.19
+1364,clinical and biochemical,1,94.51,32.19
+1365,groups regarding,1,94.52,32.2
+1366,with inadequate,1,94.52,32.2
+1367,with adverse,3,94.52,32.23
+1368,the control group,5,94.52,32.29
+1369,large for,1,94.52,32.3
+1370,low grade,2,94.52,32.32
+1371,be offered,2,94.53,32.33
+1372,complications,17,94.54,32.58
+1373,device,5,94.54,32.64
+1374,benign,4,94.55,32.69
+1375,and preterm,1,94.55,32.69
+1376,placentas,1,94.55,32.7
+1377,steroidogenic,1,94.55,32.7
+1378,reserve and,1,94.55,32.71
+1379,old woman,1,94.55,32.71
+1380,afc,1,94.55,32.72
+1381,affects of,1,94.55,32.72
+1382,poi,1,94.55,32.73
+1383,women before,1,94.55,32.73
+1384,flutamide,1,94.56,32.73
+1385,delivery are,1,94.56,32.74
+1386,were using,1,94.56,32.74
+1387,and term,1,94.56,32.75
+1388,characteristics of women,1,94.56,32.75
+1389,women without,1,94.56,32.76
+1390,attitude and practice,1,94.56,32.76
+1391,determine the association,1,94.56,32.76
+1392,torsion,1,94.56,32.77
+1393,and continuation,1,94.56,32.77
+1394,depressive symptoms during,1,94.56,32.78
+1395,cycles are,1,94.56,32.78
+1396,weeks of,4,94.57,32.83
+1397,both groups were,1,94.57,32.84
+1398,acetate,4,94.57,32.89
+1399,with idiopathic,1,94.57,32.89
+1400,control study,1,94.57,32.9
+1401,at delivery,1,94.57,32.91
+1402,dna fragmentation,1,94.57,32.91
+1403,predictive value,3,94.58,32.95
+1404,negative predictive,1,94.58,32.95
+1405,cryopreserved,1,94.58,32.95
+1406,group had,2,94.58,32.98
+1407,cycling,2,94.58,33.0
+1408,pachytene,1,94.58,33.0
+1409,dilation,1,94.58,33.01
+1410,objective to evaluate,1,94.58,33.01
+1411,malignant transformation,1,94.59,33.02
+1412,reduce the rate,1,94.59,33.03
+1413,and adverse,3,94.59,33.07
+1414,of adverse outcomes,1,94.59,33.07
+1415,deliveries,1,94.59,33.08
+1416,day of,2,94.59,33.1
+1417,cysts,1,94.59,33.11
+1418,smear,1,94.59,33.11
+1419,preservation,4,94.6,33.17
+1420,low dose,3,94.6,33.21
+1421,precancerous,1,94.6,33.22
+1422,section in,1,94.6,33.22
+1423,study women,1,94.6,33.23
+1424,facility based,1,94.6,33.24
+1425,pain relief,1,94.6,33.24
+1426,women whose,1,94.6,33.25
+1427,day or,1,94.6,33.26
+1428,sildenafil,1,94.61,33.26
+1429,and prolactin,1,94.61,33.27
+1430,primary outcome was,1,94.61,33.28
+1431,prospective cohort,2,94.61,33.3
+1432,ci conclusions,1,94.61,33.31
+1433,lifestyle modifications,1,94.61,33.31
+1434,based information,1,94.61,33.32
+1435,termination,2,94.61,33.34
+1436,surgical,11,94.62,33.53
+1437,we present case,1,94.62,33.54
+1438,complicated by,2,94.62,33.57
+1439,corpora,1,94.62,33.57
+1440,folic acid,2,94.63,33.6
+1441,health facility,2,94.63,33.63
+1442,rr ci,1,94.63,33.63
+1443,srh,1,94.63,33.64
+1444,january to december,1,94.63,33.65
+1445,epithelium of,1,94.63,33.66
+1446,of prostaglandin,1,94.63,33.66
+1447,before or,1,94.63,33.67
+1448,study groups,1,94.63,33.68
+1449,incubation of,1,94.63,33.69
+1450,transfer the,1,94.64,33.69
+1451,network meta,1,94.64,33.7
+1452,retrospective,10,94.64,33.88
+1453,laparoscopic,2,94.65,33.91
+1454,progestins,1,94.65,33.92
+1455,attendants,1,94.65,33.92
+1456,fp,1,94.65,33.93
+1457,dysphoric,1,94.65,33.94
+1458,weeks,9,94.66,34.11
+1459,washed,1,94.66,34.11
+1460,the patients were,1,94.66,34.12
+1461,conceiving,1,94.66,34.13
+1462,an oral,1,94.66,34.14
+1463,to safe,1,94.66,34.15
+1464,conclusions in,1,94.66,34.16
+1465,undergoing,7,94.67,34.29
+1466,in in vitro,1,94.67,34.3
+1467,lactobacillus,2,94.67,34.32
+1468,cyclic,2,94.67,34.35
+1469,significantly decreased,2,94.67,34.38
+1470,were divided,2,94.67,34.41
+1471,were treated,2,94.68,34.44
+1472,agonist,3,94.68,34.49
+1473,success rates,1,94.68,34.5
+1474,for recurrent,1,94.68,34.51
+1475,dysfunction the,1,94.68,34.52
+1476,freezing,1,94.68,34.53
+1477,of adverse,4,94.68,34.6
+1478,fluid,7,94.69,34.74
+1479,university hospital,1,94.69,34.75
+1480,phase the,1,94.69,34.76
+1481,not using,1,94.69,34.77
+1482,of bleeding,1,94.69,34.79
+1483,ros and,1,94.69,34.8
+1484,donation,2,94.7,34.83
+1485,proteinuria,1,94.7,34.84
+1486,surge,2,94.7,34.88
+1487,indications for,1,94.7,34.89
+1488,depot,1,94.7,34.9
+1489,supplementation in,1,94.7,34.91
+1490,count and,1,94.7,34.92
+1491,histological,2,94.7,34.96
+1492,reversible,2,94.7,35.0
+1493,cytology,1,94.71,35.01
+1494,globulin,1,94.71,35.02
+1495,prospective randomized,1,94.71,35.04
+1496,abnormality,1,94.71,35.05
+1497,spacing,1,94.71,35.06
+1498,with higher risk,1,94.71,35.07
+1499,obesity on,1,94.71,35.09
+1500,second stage,1,94.71,35.1
+1501,reaction and,1,94.71,35.11
+1502,assisted,5,94.72,35.22
+1503,motility,2,94.72,35.26
+1504,flagellar,1,94.72,35.27
+1505,germ cells,2,94.72,35.31
+1506,of recurrent,1,94.72,35.33
+1507,aimed to evaluate,1,94.72,35.34
+1508,procedure and,1,94.72,35.35
+1509,pgs,1,94.72,35.37
+1510,pgd,1,94.72,35.38
+1511,delivery,20,94.74,35.89
+1512,metaphase,1,94.74,35.9
+1513,for preterm,1,94.74,35.92
+1514,significantly lower in,1,94.74,35.93
+1515,paracrine,1,94.74,35.95
+1516,with history of,2,94.75,35.99
+1517,weight gain and,1,94.75,36.01
+1518,parameters were,1,94.75,36.03
+1519,spontaneous,3,94.75,36.1
+1520,frozen,1,94.75,36.11
+1521,health facilities,2,94.75,36.16
+1522,irregular,2,94.75,36.21
+1523,cycles of,1,94.75,36.22
+1524,methods the study,1,94.75,36.24
+1525,outcome in,2,94.76,36.29
+1526,tube,1,94.76,36.31
+1527,efficacy and safety,1,94.76,36.33
+1528,replacement,2,94.76,36.39
+1529,responders,1,94.76,36.41
+1530,vascular endothelial growth,1,94.76,36.43
+1531,of in vitro,1,94.76,36.46
+1532,serum levels,1,94.76,36.48
+1533,the procedure,1,94.76,36.51
+1534,idiopathic,1,94.76,36.53
+1535,ultrasound,1,94.77,36.56
+1536,morphology and,1,94.77,36.59
+1537,secretory,1,94.77,36.63
+1538,continuation,1,94.77,36.66
+1539,cycles,1,94.77,36.7
+1540,epithelium,1,94.77,36.74
+1541,retrieved,1,94.77,36.78
+1542,preterm,2,94.77,36.88
+1543,underwent,1,94.77,36.93
+1544,unintended,1,94.77,36.99
+1545,recurrent,1,94.77,37.06
+1546,stimulating,1,94.78,37.14

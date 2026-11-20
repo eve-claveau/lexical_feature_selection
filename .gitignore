@@ -1,5 +1,6 @@
 articles_n.csv
 articles_p.csv
 combined.csv
+reproduction_papers.rds
+reproduction_papers.parquet
 reproduction_papers.csv
-reproduction_papers.parque
