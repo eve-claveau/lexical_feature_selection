@@ -1,8 +1,8 @@
 Test on 3 900 articles sampled randomly, applied the keyword filters and classified on Nibi.
 
 # Confusion 
-|Actual \ Predicted | Positive | Negative |
-|-------------------|----------|----------|
+|Actual \\ Predicted | Positive | Negative |
+|----------------|----------|----------|
 | **Positive** | 1194 | 1279 |
 | **Negative** | 85 | 1349 | 
 
