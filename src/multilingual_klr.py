@@ -16,7 +16,7 @@ def to_binary_label(series):
     return np.where(num < 4, 1, np.where(num >= 4, 0, -1))
 
 
-def iter_corpus_chunks(file_path, chunk_size=50000, cols=("title", "abstract", "qwen2.5.14b_label")):
+def iter_corpus_chunks(file_path, chunk_size=50000, cols=('title', 'abstract', 'qwen2.5:14b_label')):
     """Streams chunks from either a .parquet or .csv file without loading all into RAM."""
     if file_path.endswith(".parquet"):
         pf = pq.ParquetFile(file_path)
@@ -27,7 +27,7 @@ def iter_corpus_chunks(file_path, chunk_size=50000, cols=("title", "abstract", "
             yield chunk
 
 
-FILE_PATH = os.path.join('combined.csv')
+FILE_PATH = os.path.join('data/all_classified.csv')
 CHUNK_SIZE = 50000
 GLOBAL_MIN_DF = 50   # Minimum total documents across the 400k corpus
 CHUNK_MIN_DF = 3     # Drops 1-off typos inside each 50k chunk to save RAM
@@ -40,7 +40,7 @@ total_neg = 0
 print("Pass 1: Streaming chunks to accumulate global 1-gram, 2-gram, 3-gram counts...")
 for i, chunk in enumerate(iter_corpus_chunks(FILE_PATH, CHUNK_SIZE)):
     texts = (chunk["title"].fillna("") + " " + chunk["abstract"].fillna("")).str.strip()
-    y_chunk = to_binary_label(chunk["qwen2.5.14b_label"])
+    y_chunk = to_binary_label(chunk["qwen2.5:14b_label"])
     
     pos_mask = (y_chunk == 1)
     neg_mask = (y_chunk == 0)
@@ -129,7 +129,7 @@ y_blocks = []
 for chunk in iter_corpus_chunks(FILE_PATH, CHUNK_SIZE):
     texts = (chunk["title"].fillna("") + " " + chunk["abstract"].fillna("")).str.strip()
     sparse_blocks.append(fixed_vec.transform(texts))
-    y_blocks.append(to_binary_label(chunk["qwen2.5.14b_label"]))
+    y_blocks.append(to_binary_label(chunk["qwen2.5:14b_label"]))
 
 X_cand = sp.vstack(sparse_blocks, format="csc")
 y_all = np.concatenate(y_blocks)

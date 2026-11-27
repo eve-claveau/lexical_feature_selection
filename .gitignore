@@ -4,3 +4,5 @@ combined.csv
 reproduction_papers.rds
 reproduction_papers.parquet
 reproduction_papers.csv
+data/
+classified_filtered*

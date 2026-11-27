@@ -23,5 +23,3 @@ df.to_csv('results/filtered_sample.csv', index=False)
 n = sum(1 for line in open(source_file)) - 1
 # print percentage reduction by the filter
 print(f"Percentage of article reduction:{((n - count)/n)*100}%!" )
-    
-    
